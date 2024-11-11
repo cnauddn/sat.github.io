@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 인터랙티브 블로그</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>Hello, World!</p>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul class="nav-links">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#posts">글목록</a></li>
+                <li><a href="#about">소개</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1 class="animate-text">환영합니다</h1>
+            <p class="animate-text">나만의 특별한 이야기를 시작해보세요</p>
+        </section>
+
+        <section id="posts">
+            <article class="post-card">
+                <img src="placeholder.jpg" alt="게시글 이미지">
+                <h2>첫 번째 게시글</h2>
+                <p>게시글 내용...</p>
+            </article>
+            <!-- 더 많은 게시글 카드 추가 가능 -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
